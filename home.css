@@ -1,0 +1,134 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:linear-gradient(rgba(18, 17, 17, 0.8),rgba(0,0,0,0.5)),url("https://img.freepik.com/premium-photo/postage-message-communication-concept-with-digital-blue-envelope-symbols-dark-background-3d-rendering_688884-506.jpg");
+	background-size:cover;
+    background-position: center;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1408f7;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+.navbar .logo h1 {
+    margin: 0;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 80px;
+    font-size: 18px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar .nav-links a:hover {
+    text-decoration: underline;
+}
+
+.A {
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.A-content {
+    height: 270px;
+    width: 500px;
+    color: #000000;
+    max-width: 600px;
+    background-color: rgba(255,255,255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    h2 p{
+        color: #000000;
+    }
+}
+
+.h2 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.p {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.A .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #004692;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.A .btn:hover {
+    background-color: #003165;
+}
+
+.content-section {
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.content-section h2 {
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+}
+
+.content-section p, .content-section ul {
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    color: #fff;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #fff;
+}
+a{
+    color: #fff;
+}
+footer {
+    background-color: #1408f7;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

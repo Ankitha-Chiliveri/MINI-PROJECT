@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity=""
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="item.css" />
+    <title>CRUD Application</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1><i class="fa-regular fa-envelope"></i> Em@il Accounts</h1>
+      <div id="input-container">
+        <input type="text" id="name-input" placeholder="Enter name">
+        <input type="email" id="email-input" placeholder="Enter email">
+        <button id="add-btn">
+            <i class="fa-solid fa-plus"></i> Add</button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+      <div id="update-container">
+        <input type="text" id="update-name-input">
+        <input type="text" id="update-email-input">
+        <button id="update-btn">
+          <i class="fa-solid fa-arrow-up-from-bracket"></i> Update</button>
+        <button id="cancel-btn">
+          <i class="fa-solid fa-xmark"></i> Cancel</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    <p>C-Create, R-Read, U-Update, D-Delete [CRUD APPLICATION].</p>
+    <h4>created by @Ankitha Chiliveri</h4>
+  </footer>
+</html>
